@@ -6,7 +6,7 @@ Created on 2016-04-28
 
 功能: 爬取新浪微博的搜索结果,支持高级搜索中对搜索时间的限定
 网址：http://s.weibo.com/
-实现：采取selenium测试工具，结合PhantomJS/Firefox对后台JS代码进行解析，进而抓取需要的信息
+实现：采取selenium测试工具，模拟微博登录，结合PhantomJS/Firefox，分析DOM节点后，采用Xpath对节点信息进行获取，实现重要信息的抓取
 
 """
 
